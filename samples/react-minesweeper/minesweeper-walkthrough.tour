@@ -2,7 +2,7 @@
   "title": "minesweeper-walkthrough",
   "steps": [
     {
-      "file": "samples/react-minesweeper/package.json",
+      "file": "package.json",
       "description": "Minimal path to awesomeness:\r\n\r\n>> cd .\\samples\\react-minesweeper\r\n\r\n>> npm install\r\n\r\n>> gulp serve\r\n",
       "selection": {
         "start": {
@@ -16,7 +16,7 @@
       }
     },
     {
-      "file": "samples/react-minesweeper/src/webparts/minesweeper/components/Tile/Tile.tsx",
+      "file": "src/webparts/minesweeper/components/Tile/Tile.tsx",
       "description": "Tile rendering",
       "selection": {
         "start": {
@@ -30,7 +30,7 @@
       }
     },
     {
-      "file": "samples/react-minesweeper/src/webparts/minesweeper/components/Tile/Tile.module.scss",
+      "file": "src/webparts/minesweeper/components/Tile/Tile.module.scss",
       "description": "Numbers are coloured like in the original game!",
       "selection": {
         "start": {
@@ -44,7 +44,7 @@
       }
     },
     {
-      "file": "samples/react-minesweeper/src/webparts/minesweeper/components/Tile/Tile.module.scss",
+      "file": "src/webparts/minesweeper/components/Tile/Tile.module.scss",
       "description": "Mines & flags can have additional styling:\r\n- The background of the mine tile that was clicked on turns red\r\n- Flags that were incorrect turn red as well",
       "selection": {
         "start": {
@@ -58,7 +58,7 @@
       }
     },
     {
-      "file": "samples/react-minesweeper/src/models/TileInfo.ts",
+      "file": "src/models/TileInfo.ts",
       "description": "Each tile has these properties",
       "selection": {
         "start": {
@@ -72,7 +72,7 @@
       }
     },
     {
-      "file": "samples/react-minesweeper/src/webparts/minesweeper/components/Grid/IMinesweeperState.ts",
+      "file": "src/webparts/minesweeper/components/Grid/IMinesweeperState.ts",
       "description": "State of the main component",
       "selection": {
         "start": {
@@ -86,40 +86,7 @@
       }
     },
     {
-      "file": "samples/react-minesweeper/src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
-      "description": "Render main component\r\n- Game info header\r\n- Grid\r\n- High score callout",
-      "selection": {
-        "start": {
-          "line": 52,
-          "character": 1
-        },
-        "end": {
-          "line": 56,
-          "character": 13
-        }
-      }
-    },
-    {
-      "file": "samples/react-minesweeper/src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
-      "line": 111,
-      "description": "Events:\r\n- Left / right click\r\n- Toggle mine / flag mode\r\n- Select difficulty\r\n- Toggle high score\r\n- Reset"
-    },
-    {
-      "file": "samples/react-minesweeper/src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
-      "description": "Tile click events:\r\n- Chording\r\n- Mine / flag mode: interchange meaning left / right click",
-      "selection": {
-        "start": {
-          "line": 113,
-          "character": 1
-        },
-        "end": {
-          "line": 137,
-          "character": 4
-        }
-      }
-    },
-    {
-      "file": "samples/react-minesweeper/src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
+      "file": "src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
       "description": "State initialization.",
       "selection": {
         "start": {
@@ -133,37 +100,70 @@
       }
     },
     {
-      "file": "samples/react-minesweeper/src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
+      "file": "src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
+      "description": "Render main component\r\n- Game info header\r\n- Grid\r\n- High score callout",
+      "selection": {
+        "start": {
+          "line": 52,
+          "character": 1
+        },
+        "end": {
+          "line": 56,
+          "character": 13
+        }
+      }
+    },
+    {
+      "file": "src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
+      "line": 111,
+      "description": "Events:\r\n- Left / right click\r\n- Toggle mine / flag mode\r\n- Select difficulty\r\n- Toggle high score\r\n- Reset"
+    },
+    {
+      "file": "src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
+      "description": "Tile click events:\r\n- Chording\r\n- Mine / flag mode: interchange meaning left / right click",
+      "selection": {
+        "start": {
+          "line": 113,
+          "character": 1
+        },
+        "end": {
+          "line": 137,
+          "character": 4
+        }
+      }
+    },
+    {
+      "file": "src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
       "line": 201,
       "description": "- [Initialize grid][#12]\r\n- [Discover][#13]\r\n- [Plant flag][#14]\r\n- [Chording][#15]\r\n- [Traverse empty][#16]\r\n- [Get surrounding mines / flags][#17]\r\n- [Player wins / loses][#18]"
     },
     {
-      "file": "samples/react-minesweeper/src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
+      "file": "src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
       "line": 203,
       "description": "Randomize the mines in the grid\r\n\r\nBack to [game logic overview][#11]"
     },
     {
-      "file": "samples/react-minesweeper/src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
+      "file": "src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
       "line": 227,
       "description": "Game logic: discover\r\n\r\nBack to [game logic overview][#11]"
     },
     {
-      "file": "samples/react-minesweeper/src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
+      "file": "src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
       "line": 288,
       "description": "Game logic: plant flag\r\n\r\nBack to [game logic overview][#11]"
     },
     {
-      "file": "samples/react-minesweeper/src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
+      "file": "src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
       "line": 320,
       "description": "Game logic: chording\r\n\r\nBack to [game logic overview][#11]"
     },
     {
-      "file": "samples/react-minesweeper/src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
+      "file": "src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
       "line": 342,
       "description": "Game logic: traverse empty tiles\r\n- Recursive\r\n\r\nBack to [game logic overview][#11]"
     },
     {
-      "file": "samples/react-minesweeper/src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
+      "file": "src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
       "description": "Game logic: get surrounding mines / flags\r\n- Using the 8 delta coordinates\r\n\r\nBack to [game logic overview][#11]",
       "selection": {
         "start": {
@@ -174,11 +174,12 @@
           "line": 389,
           "character": 4
         }
-      }
+      },
+      "line": 358
     },
     {
-      "file": "samples/react-minesweeper/src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
-      "line": 412,
+      "file": "src/webparts/minesweeper/components/Grid/Minesweeper.tsx",
+      "line": 409,
       "description": "Game logic: player wins / loses\r\n\r\nBack to [game logic overview][#11]",
       "selection": {
         "start": {
